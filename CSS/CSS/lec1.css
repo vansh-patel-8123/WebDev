@@ -1,0 +1,169 @@
+/* extenal CSS start */
+    p{
+        color: blue;
+    }
+/* extenal CSS end*/
+
+/* Selector start*/
+        /*
+        1> Element selector
+        2> id selector  -> #
+        3> class selector   ->  .   
+        */ 
+        /* 
+        id -> use only in one tag
+        class -> use many elements */
+    #i-1{
+        color: red;
+    }
+    #i-2{
+        color: aqua;
+    }
+    #c-1{
+        color: blue;
+    }
+    /* priority -> id > class > element */
+/* Selector end*/  
+
+
+
+
+/* color start */
+        /* RGB
+        RGBA
+        HEX
+        HSL
+        HSLA */
+
+        /* RGB
+        rgb(red,green,blue)
+        0-255 */
+
+        /* RGBA
+        rgba(red,green,blue,alpha)
+        0-255
+        alpha -> transparent 0.0 - 1.0 */
+
+        /* HEX
+        #rrggbb
+        00-ff (hexa decimal) */
+
+        /* HSL -> color whill
+        (hue,saturation,lightness) */
+
+/* color end */
+
+
+/* background start*/
+    .class-div{
+        font-size: 25px;
+        /* background-color: aqua; */
+        background-image: url("../IMG/david-dm-OHwFJQeoYOQ-unsplash.jpeg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+/* background end */
+
+/* border start  */
+    #border{
+        border-style: solid;
+        border-radius: 10px;
+        border-color: blue red green yellow; /* always clock wise */
+        border-width: 10px;
+
+        /* sort form  */
+        /* border: 10px solid green; */
+    }
+/* border end  */
+
+/* height & width start */
+    .wh{
+        background-color: aqua;
+        width: 20%;
+        height: auto;
+        min-width: 500px;  
+    }
+/* height & width end */
+
+/* padding start  */
+    .padding{
+        border: 2px red solid;
+        padding: 100px;
+    } 
+/* padding end */
+
+/* margin start */
+    .margin{
+        border: 2px green solid;
+        margin: 100px 100px 100px 100px;
+    }
+/* margin end  */
+
+/* Box Model start*/
+    /*
+    margin 
+        border
+            padding
+                content
+                    padding
+                        border
+                            margin 
+                                    */
+/* box model end  */
+
+/* text start  */
+    .text{
+        width: 500px;
+        text-align: center;
+        border: 2px red solid;
+        text-transform: uppercase;
+        line-height: 50px;
+        text-indent: 100px;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+
+    }
+/* text end  */
+
+/* text shadow start*/ 
+    .shadow{
+        text-shadow: 5px 10px 5px red ;
+    }
+/* text shadow end*/
+
+/* link start  */
+    /* 
+        4 states
+            :link
+            :visited
+            :hover
+            :active     */
+
+    #link :link{
+        text-decoration: none;
+        color: yellow;
+    }
+    #link :visited{
+        text-decoration: none;
+        color: black;
+    }
+    #link :hover{
+        text-decoration: none;
+        color: red;
+    }
+    #link :active{
+        text-decoration: none;
+        color: green;
+    }
+/* link end */ 
+
+/* fonts start  */
+        #font{
+            font-size: 100px;
+            font-weight: 100;
+            font-style: italic;
+        }
+/* fonts end  */
