@@ -1,0 +1,92 @@
+/* cursor start  */
+    .cursor{
+        border: 1px solid red;
+        cursor: all-scroll;
+    }
+
+/* cursor end */
+
+
+/* Box Shadow start */
+    .shadow{
+        width: 500px;
+        border: 1px solid red;
+        background-color: aquamarine;
+        margin: 100px;
+        padding: 20px;
+
+
+        box-shadow: 10px 20px 100px gray;
+        /* box-shadow: vertical horizonral blur color; */
+    }
+/* Box Shadow end */
+
+
+/* opacity & filter start  */
+    .opacity{
+        opacity: 0.5;
+        filter: brightness(10%);
+    }
+/* opacity & filter end  */
+
+
+/* sprite start  */
+    .sprite{
+        height: 128px;
+        background-image: url("../IMG/sprite.webp");
+        background-repeat: no-repeat;
+        /* USA  */
+        background-position: 0px -143px; 
+        /* canada  */
+        background-position: 0px 0px;
+    }
+/* sprite end  */
+
+
+/* gradient start  */
+    /* 
+    1> linearGradient
+    2> radialGradient 
+    */
+        .gradient{
+            height: 500px;
+            border: 1px solid red;
+            background-image: linear-gradient(120deg, green , red , pink,yellow,violet,blue);
+        }
+/* gradient end  */
+
+
+/* overflow start  */
+    .overFlow{
+        background-color: aqua;
+        border: 1px solid red;
+        width: 500px;
+        height: 100px;
+        overflow:scroll;
+
+        /* for resize by user in screen  */
+        resize:both; 
+    }
+/* overflow end  */
+
+
+/* CSS list start  */
+    ul{
+        list-style-type:decimal;
+        list-style-image: linear-gradient(green,red,yellow,blue);
+    }
+    ol{
+        list-style-type: upper-alpha;
+    }
+/* CSS list end */
+
+/* CSS table start  */
+    table{
+        border: 1px solid red;
+    }
+    tr,th{
+        border: 1px sloid green;
+    }
+/* CSS table end  */
+
+
